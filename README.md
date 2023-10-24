@@ -1,8 +1,8 @@
 # LAB - 02
 
-## Project Name
+## About Me Project
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I build a super sick website about a topic I am a Subject Matter Expert in: ME! This is my about me project, still a work in progress.
 
 ### Author: Brendan Huddleston
 
