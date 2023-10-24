@@ -16,8 +16,7 @@ if (userAccept.toLowerCase() === 'y') {
   // while (userAccept.toLowerCase() !== 'y') {
   //   userAccept = prompt(
   //     'You gotta agree to the test in order to view my site! So (Y/N)'
-  //   );
-  }
+  //   );}
 }
 
 // Question 2 (Switch)
