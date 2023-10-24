@@ -13,7 +13,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Lighthouse Accessibility Report Score
 
-- Provide a screenshot of your score after running a Lighthouse Accessibility report.
+- ![My lighthouseimage](lighthouse.png)
 
 ### Reflections and Comments
 
