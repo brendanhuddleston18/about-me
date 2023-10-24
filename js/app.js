@@ -1,3 +1,5 @@
+"use strict";
+
 // Welcome Message w/ prompt
 let userName = prompt("Hey what's your name?");
 console.log(userName);
