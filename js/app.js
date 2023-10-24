@@ -12,7 +12,7 @@ if (userAccept.toLowerCase() === 'y') {
   console.log('Strap in here we go!');
   alert('Strap in here we go!');
 } else {
-  console.log('Placeholder because my while loop will not work in lighthouse')
+  console.log('Placeholder because my while loop will not work in lighthouse');
   // while (userAccept.toLowerCase() !== 'y') {
   //   userAccept = prompt(
   //     'You gotta agree to the test in order to view my site! So (Y/N)'
