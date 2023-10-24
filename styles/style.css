@@ -25,6 +25,7 @@ h2 {
 }
 
 img {
+  display: flex;
   margin: 32px;
   justify-content: center;
   width: 400px;
@@ -38,14 +39,34 @@ ul {
   margin-left: 32px;
 }
 
-.flexContainer {
-  align-items: center;
+/* .interestList {
+  grid-column: 1 / span 2;
+} */
+
+/* .gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  gap: 20px;
+} */
+
+.listFlex {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: square;
+  line-height: 1.5;
+  margin-left: 32px;
 }
 
 .aboutMe {
+  align-items: center;
+  justify-content: center;
+  background-color: #dee2e6;
+  border-radius: 10px;
+
   margin: 32px;
   line-height: 1.5;
-  width: 600px;
 }
 
 /* .interestHeading {
