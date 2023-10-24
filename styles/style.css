@@ -1,0 +1,52 @@
+/*
+colors: #63e6be, #495057, #e9ecef
+*/
+
+body {
+  font-family: sans-serif;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+footer {
+  background-color: #63e6be;
+  margin-top: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #63e6be;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+img {
+  margin: 32px;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: square;
+  line-height: 1.5;
+  margin-left: 32px;
+}
+
+.flexContainer {
+  align-items: center;
+}
+
+.aboutMe {
+  margin: 32px;
+  line-height: 1.5;
+  width: 600px;
+}
+
+/* .interestHeading {
+} */
