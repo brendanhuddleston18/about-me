@@ -73,3 +73,34 @@ if (brendanPSM.toLowerCase() === 'y') {
   alert('You got this one wrong');
   alert('Anyway here is my site!');
 }
+
+// Question 6 (Only four chances)
+let userGuessAge = prompt('How old am I?');
+for(let userChance = 1; userChance < 5; userChance++){
+  if(userGuessAge == 25){
+    alert('You got it right!');
+  } else if(userGuessAge == 24 || userGuessAge == 26){
+    alert(`You're so close! You're on your ${userChance} attempt`);
+    userGuessAge = prompt('Try again');
+  } else {
+    alert(`Nope nice Try! You're on your ${userChance} attempt`);
+    userGuessAge = prompt('Try again');
+  }
+}
+
+
+// if (userGuessAge == 25){
+//   alert('Yep you got it');
+// } else if(userGuessAge == 24 || userGuessAge == 26){
+//   alert('OOOO you are super close!');
+//   userChance++;
+//   userGuessAge = prompt("Try again")
+// } else {
+//   alert('Nope, not quite');
+//   userChance++;
+// }
+// userChance++;
+// howOldBrendan = prompt("Try again")
+// alert("Nope!");
+
+
