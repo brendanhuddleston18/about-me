@@ -39,6 +39,12 @@ ul {
   margin-left: 32px;
 }
 
+ol {
+  list-style-type: lower-roman;
+  line-height: 1.5;
+  margin-left: 32px;
+}
+
 /* .interestList {
   grid-column: 1 / span 2;
 } */
@@ -57,6 +63,12 @@ ul {
   list-style-type: square;
   line-height: 1.5;
   margin-left: 32px;
+}
+
+.listHeading {
+  background-color: #dee2e6;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .aboutMe {
