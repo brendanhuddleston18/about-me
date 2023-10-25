@@ -7,8 +7,9 @@ alert(`Welcome ${userName}, to my work in progress 'About Me' site!`);
 
 //Question 1 (If condition)
 let userAccept = prompt('We are gonna take a quick quiz is that okay? (Y/N)');
-
-if (userAccept.toLowerCase() === 'y') {
+let letter = userAccept.substring(0, 1).toLowerCase();
+console.log(letter);
+if (letter === 'y') {
   console.log('Strap in here we go!');
   alert('Strap in here we go!');
 } else {
