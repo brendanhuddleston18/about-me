@@ -75,19 +75,24 @@ if (brendanPSM.toLowerCase() === 'y') {
 }
 
 // Question 6 (Only four chances)
-let userGuessAge = prompt('How old am I?');
+let userGuessAge = Number(prompt('How old am I?'));
+let n = 1;
 for(let userChance = 1; userChance < 5; userChance++){
-  if(userGuessAge == 25){
-    alert('You got it right!');
-  } else if(userGuessAge == 24 || userGuessAge == 26){
-    alert(`You're so close! You're on your ${userChance} attempt`);
-    userGuessAge = prompt('Try again');
-  } else {
-    alert(`Nope nice Try! You're on your ${userChance} attempt`);
-    userGuessAge = prompt('Try again');
+  if(n >= 4){
+    alert('The answer was 25');
+    break;
   }
+  console.log(n);
+  if(userGuessAge === 25){
+    alert(`Good Job ${userName}`);
+    break;
+  } else if(userGuessAge > 25){
+    userGuessAge = prompt(`Nope you're too high try again, you're on your ${userChance} attempt`);
+  } else if(userGuessAge < 25){
+    userGuessAge = prompt(`Nope you're too low try again, you're on your ${userChance} attempt`);
+  }
+  n++;
 }
-
 
 // if (userGuessAge == 25){
 //   alert('Yep you got it');
