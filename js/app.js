@@ -75,6 +75,7 @@ if (brendanPSM.toLowerCase() === 'y') {
 }
 
 // Question 6 (Only four chances)
+// Shoutout to Ekow for helping me out with setting up the limit alert
 let userGuessAge = Number(prompt('How old am I?'));
 let n = 1;
 for(let userChance = 1; userChance < 5; userChance++){
@@ -93,6 +94,29 @@ for(let userChance = 1; userChance < 5; userChance++){
   }
   n++;
 }
+
+// Question 7 Array
+let statesLived = prompt('Which of these states have I lived in?: Colorado, Tennessee, Alabama, Texas, California');
+let correctStates = ['colorado','texas'];
+while(statesLived.toLowerCase() !== correctStates[0] || statesLived !== correctStates[1]){
+  statesLived = prompt('Sorry, that is incorrect try again: Colorado, Tennessee, Alabama, Texas, California');
+  if(statesLived.toLowerCase() == correctStates[0]){
+    alert('You got it!');
+    break;
+  } else if (statesLived.toLowerCase() == correctStates[1]){
+    alert('You got it!');
+    break;
+  }
+}
+// if(statesLived.toLowerCase() == correctStates[0]){
+//   alert('You got it!');
+// } else if (statesLived.toLowerCase() == correctStates[1]){
+//   alert('You got it!');
+// }
+// else { while(statesLived.toLowerCase() !== correctStates[0] || statesLived !== correctStates[1]){
+//   statesLived = prompt('Sorry, that is incorrect try again: Colorado, Tennessee, Alabama, Texas, California');
+// }
+
 
 // if (userGuessAge == 25){
 //   alert('Yep you got it');
