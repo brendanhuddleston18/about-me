@@ -12,7 +12,9 @@
       <h1>Brendan Huddleston</h1>
     </header>
     <main>
-      <img src="linkedin.jpeg" alt="Headshot of Brendan" />
+      <div class="picture">
+        <img src="linkedin.jpeg" alt="Headshot of Brendan" />
+      </div>
         <p class="aboutMe">
           I'm Brendan, a 25-year-old originally from Virginia, but I now call
           Fort Worth my home. I proudly served in the US Army for six years
@@ -25,11 +27,21 @@
           do whatever I want!
         </p>
         <!-- Change class name, or remove classes -->
-        <div class="listFlex">
+        <div class="lists">
           <ul class="unorderedList">
             <h2 class="listHeading">Work/Education History:</h2>
-            <li>US Army Joint Fires Observer</li>
-            <li>The Pennsylvania State University</li>
+            <li>
+              US Army Joint Fires Observer
+              <ul>
+                <li>June 2017 to May 2023</li>
+              </ul>
+            </li>
+            <li>
+              The Pennsylvania State University
+              <ul>
+                <li>August 2015 to May 2017</li>
+              </ul>
+            </li>
           </ul>
           <ol class="orderedList">
             <h2 class="listHeading">Top Ten Favorite Shows and Movies</h2>
@@ -52,6 +64,6 @@
         >LinkedIn
       </a>
     </footer>
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
   </body>
 </html>

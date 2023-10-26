@@ -1,23 +1,28 @@
 /*
-colors: #63e6be, #495057, #e9ecef
+colors: #a5d8ff, #495057, #e9ecef
 */
 
 body {
   font-family: sans-serif;
   background-color: #e9ecef;
   color: #495057;
+  background: linear-gradient(to bottom, #e7f5ff, #d0ebff);
+}
+
+header {
 }
 
 footer {
-  background-color: #63e6be;
+  background-color: #a5d8ff;
   margin-top: 24px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: bold;
-  background-color: #63e6be;
+  /* background-color: #a5d8ff; */
   text-align: center;
+  padding: 32px;
 }
 
 h2 {
@@ -31,6 +36,7 @@ img {
   width: 400px;
   height: 400px;
   border-radius: 5px;
+  box-shadow: 0 5px 5px #495057;
 }
 
 ul {
@@ -57,26 +63,35 @@ ol {
   gap: 20px;
 } */
 
-.listFlex {
+.lists {
   display: flex;
   justify-content: space-around;
   list-style-type: square;
   line-height: 1.5;
-  margin-left: 32px;
+  margin: 32px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px #07131e11;
 }
 
+
+
 .listHeading {
-  background-color: #dee2e6;
+
   text-align: center;
   border-radius: 10px;
 }
 
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .aboutMe {
   align-items: center;
   justify-content: center;
-  background-color: #dee2e6;
+  background-color: #d0ebff;
   border-radius: 10px;
-
+  box-shadow: 0 2px 8px #a5d8ff;
   margin: 32px;
   line-height: 1.5;
 }
