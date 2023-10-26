@@ -98,38 +98,21 @@ for(let userChance = 1; userChance < 5; userChance++){
 // Question 7 Array
 let statesLived = prompt('Which of these states have I lived in?: Colorado, Tennessee, Alabama, Texas, California');
 let correctStates = ['colorado','texas'];
+let limit = 1;
 while(statesLived.toLowerCase() !== correctStates[0] || statesLived !== correctStates[1]){
-  statesLived = prompt('Sorry, that is incorrect try again: Colorado, Tennessee, Alabama, Texas, California');
-  if(statesLived.toLowerCase() == correctStates[0]){
-    alert('You got it!');
-    break;
-  } else if (statesLived.toLowerCase() == correctStates[1]){
-    alert('You got it!');
+  statesLived = prompt(`Sorry, that is incorrect try again: Colorado, Tennessee, Alabama, Texas, California, you are on attempt ${limit}/6`);
+  if(limit >= 6){
+    alert('The two correct answers were Texas or Colorado!');
     break;
   }
+  if(statesLived.toLowerCase() == correctStates[0]){
+    alert('You got it, the other answer was Texas!');
+    break;
+  } else if (statesLived.toLowerCase() == correctStates[1]){
+    alert('You got it, the other answer was Colorado!');
+    break;
+  }
+  limit++;
 }
-// if(statesLived.toLowerCase() == correctStates[0]){
-//   alert('You got it!');
-// } else if (statesLived.toLowerCase() == correctStates[1]){
-//   alert('You got it!');
-// }
-// else { while(statesLived.toLowerCase() !== correctStates[0] || statesLived !== correctStates[1]){
-//   statesLived = prompt('Sorry, that is incorrect try again: Colorado, Tennessee, Alabama, Texas, California');
-// }
-
-
-// if (userGuessAge == 25){
-//   alert('Yep you got it');
-// } else if(userGuessAge == 24 || userGuessAge == 26){
-//   alert('OOOO you are super close!');
-//   userChance++;
-//   userGuessAge = prompt("Try again")
-// } else {
-//   alert('Nope, not quite');
-//   userChance++;
-// }
-// userChance++;
-// howOldBrendan = prompt("Try again")
-// alert("Nope!");
 
 
