@@ -9,6 +9,18 @@ body {
   background: linear-gradient(to bottom, #e7f5ff, #d0ebff);
 }
 
+main {
+  margin: 10px auto;
+  max-width: 960px;
+}
+
+article {
+  box-shadow: 0 2px 8px #a5d8ff;
+  background-color: #d0ebff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 header {
 }
 
@@ -70,7 +82,7 @@ ol {
   line-height: 1.5;
   margin: 32px;
   border-radius: 10px;
-  box-shadow: 0 5px 5px #07131e11;
+  /* box-shadow: 0 5px 5px #07131e11; */
 }
 
 
@@ -91,7 +103,7 @@ ol {
   justify-content: center;
   background-color: #d0ebff;
   border-radius: 10px;
-  box-shadow: 0 2px 8px #a5d8ff;
+  /* box-shadow: 0 2px 8px #a5d8ff; */
   margin: 32px;
   line-height: 1.5;
 }
