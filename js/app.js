@@ -28,7 +28,7 @@ function questionOne (){
   let userAccept = prompt('We are gonna take a quick quiz is that okay? (Y/N)');
   let letter = userAccept.substring(0, 1).toLowerCase();
   console.log(letter);
-  if (letter === 'y') {
+  if (letter.substring(0, 1).toLowerCase() === 'y') {
     console.log('Strap in here we go!');
     alert('Strap in here we go!');
     correct++;
@@ -46,7 +46,7 @@ function questionOne (){
 // Question 2 (Switch)
 function questionTwo(){
   let brendanState = prompt('I am from Pennsylvania(Y/N)');
-  switch (brendanState.toLowerCase()) {
+  switch (brendanState.substring(0, 1).toLowerCase()) {
   case 'y':
   // console.log('Nope, not from PA');
     alert('Nope, not from PA');
@@ -69,7 +69,7 @@ function questionThree (){
 
   let brendanHome = prompt('Do I live in Fort Worth Texas currently? (Y/N)');
 
-  if (brendanHome.toLowerCase() === 'y') {
+  if (brendanHome.substring(0, 1).toLowerCase() === 'y') {
     // console.log('Ding ding ding! you're on a roll!');
     alert("Ding ding ding! you're on a roll!");
     correct++;
@@ -84,7 +84,7 @@ function questionThree (){
 function questionFour (){
   let brendanHobby = prompt('Working out in the gym is one of my hobbies? (Y/N)');
 
-  switch (brendanHobby.toLowerCase()) {
+  switch (brendanHobby.substring(0, 1).toLowerCase()) {
   case 'y':
   // console.log('Yep love getting swole');
     alert('Yep love getting swole!');
@@ -101,7 +101,7 @@ function questionFour (){
 // Question 5 (If)
 function questionFive (){
   let brendanPSM = prompt('I am a certified Professional Scrum Master 1? (Y/N)');
-  if (brendanPSM.toLowerCase() === 'y') {
+  if (brendanPSM.substring(0, 1).toLowerCase() === 'y') {
   // console.log(`Yep you got it thanks for taking my quiz ${userName}`);
     alert(`Yep you got it ${userName}`);
     correct++;
